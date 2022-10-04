@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Satoshi Regular";
+  src: url(/fonts/Satoshi-Regular.otf);
+}
+@font-face {
+  font-family: "Satoshi Medium";
+  src: url(/fonts/Satoshi-Medium.otf);
+}
+@font-face {
+  font-family: "Satoshi Bold";
+  src: url(/fonts/Satoshi-Bold.otf);
+}
+
+
+
+
+body { 
+  background-color: #f6f2ff;
+}
+
+h3 { 
+  font-weight: bold;
+  color: rgb(0, 12, 38);
+}
+
+strong { 
+  color: #575d69 ;
+}
