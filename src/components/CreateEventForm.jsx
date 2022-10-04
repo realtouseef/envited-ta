@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export const CreateEventForm = () => {
   return (
-    <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md">
+    <div className="block p-6 rounded-lg shadow-lg bg-white max-w-sm lg:max-w-md">
       <form>
         {/* event name  */}
         <div className="form-group mb-6">
